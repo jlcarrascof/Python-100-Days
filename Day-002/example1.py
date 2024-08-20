@@ -13,3 +13,10 @@ print("123" + "345")
 
 # Integer.
 print(123 + 345)
+
+# Float.
+print(3.14 + 2.71)
+
+# Boolean.
+True
+False
