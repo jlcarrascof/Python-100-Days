@@ -8,3 +8,5 @@ print("Hello"[len("Hello") - 1])
 
 # Angela
 print("Hello"[4])
+
+print("123" + "345")
