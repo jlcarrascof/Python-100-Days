@@ -10,3 +10,6 @@ print("Hello"[len("Hello") - 1])
 print("Hello"[4])
 
 print("123" + "345")
+
+# Integer.
+print(123 + 345)
