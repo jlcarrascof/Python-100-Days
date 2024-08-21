@@ -16,3 +16,10 @@ score = 0
 score += 1
 
 print(score)
+
+#f-String
+score = 0
+height = 1.8
+isWinning = True
+
+print(f"Your score is {score}")
