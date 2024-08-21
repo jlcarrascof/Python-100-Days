@@ -1,6 +1,7 @@
 age = input()
 # 🚨 Don't change the code above 👆
-# Write your code below this line 👇
+# Write your code below this line
+# My solution👇
 weeks_per_year = 52
 age_limit = 90
 ages_left = age_limit - int(age)
