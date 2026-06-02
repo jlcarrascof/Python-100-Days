@@ -4,16 +4,16 @@ weight = float(input("enter your weight in kg: "))
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
-bmi = weight / height ** 2 
+bmi = round(weight / height ** 2) 
 
 if bmi < 18.5:
-    print('Underweight')
+    print(f"Your BMI is {bmi}, you are underweight.")
 elif bmi < 25:
-    print('Normal weight')
+    print(f"Your BMI is {bmi}, you are normal weight.")
 elif bmi < 30:
-    print('Overweight')
+    print(f"Your BMI is {bmi}, you are overweight.")
 elif bmi < 35:
-    print('Obese')
+    print(f"Your BMI is {bmi}, you are obese.")
 else:
-    print('Clinically Obese')
+    print(f"Your BMI is {bmi}, you are clinically obese.")
 
