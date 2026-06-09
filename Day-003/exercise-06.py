@@ -5,3 +5,32 @@ name2 = input("What is their name? \n")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
+
+combined_names = name1 + name2
+combined_names = combined_names.lower()
+
+# How many T R U E
+
+true_count = 0
+true_count += combined_names.count("t")
+true_count += combined_names.count("r")
+true_count += combined_names.count("u")
+true_count += combined_names.count("e")
+
+# How many L O V E
+
+love_count = 0
+love_count += combined_names.count("l")
+love_count += combined_names.count("o")
+love_count += combined_names.count("v")
+love_count += combined_names.count("e")
+
+score_string = str(true_count) + str(love_count)
+love_score = int(score_string)
+
+if love_score < 10 or love_score > 90:
+    print(f"Your score is {love_score}, you go together like coke and mentos.")
+elif love_score >= 40 and love_score <= 50:
+    print(f"Your score is {love_score}, you are alright together.")
+else:
+    print(f"Your score is {love_score}.")       
